@@ -1040,3 +1040,7 @@ h4 {
         text-align: center;
     }
 }
+
+.bloc-texte {
+    font-size: 18px;
+}
