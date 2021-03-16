@@ -534,6 +534,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    text-align: -webkit-center;
 }
 
 a[data-lightbox]:hover::before {
@@ -647,8 +648,7 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -676,9 +676,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -702,6 +699,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    margin-bottom: 33px;
 }
 
 h2 {
@@ -753,7 +751,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(49 44 29 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,11 +769,12 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #403c3a;
 }
 
 .tc-white {
     color: #F3976C!important;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -822,7 +821,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1043,4 +1042,13 @@ h4 {
 
 .bloc-texte {
     font-size: 18px;
+}
+
+.projet {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.titre-bold {
+    font-weight: bold;
 }
